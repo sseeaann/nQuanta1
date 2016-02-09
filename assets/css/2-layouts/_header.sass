@@ -1,0 +1,37 @@
+header
+  height: 700px
+  background:
+    image: url(../img/laptop-lady.png)
+    size: cover
+    position: center
+  position: relative
+
+  #z-logo
+    height: 60px
+    margin: 20px 0
+    position: absolute
+
+  .content
+    text-align: center
+    font-family: $Roboto
+    margin-top: 150px
+
+
+    p
+      font-size: 72px
+      font-weight: 100
+      color: white
+
+      span
+        font-weight: 700
+        text-transform: uppercase
+        letter-spacing: 3px
+        color: $lime
+        font-family: $Lora
+        display: inline-block
+
+@media (max-width: 500px)
+  header
+    .content
+      p
+        font-size: 14.6vw
